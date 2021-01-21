@@ -9,34 +9,34 @@ Serve as Version - log for future references
  
  
 # Table of Contents:
-a) Description of the data to be stored and moved into the analytics system
-b) Data Source Description
-c) Joining Data sets
-d) Data Transformations
-e) Dataset Dimensions
-f) Field/Type Details
+1. Description of the data to be stored and moved into the analytics system
+2. Data Source Description
+3. Joining Data sets
+4. Data Transformations
+5. Dataset Dimensions
+6. Field/Type Details
 
 # High level data flow
-a) Data flow
-b) Dimensional Model
-c) Incremental Loads
-d) Lookup Tables
-e) Data marts/ OLAP cubes
+1. Data flow
+2. Dimensional Model
+3. Incremental Loads
+4. Lookup Tables
+5. Data marts/ OLAP cubes
 
 
 # Analytics Design
-a) Reporting tools and visualizations
+1. Reporting tools and visualizations
 
 # Analytics outcomes
 
 # Dataset Dimensions: These datasets have following dimensions.
-a) Age
-b) Race
-c) State and County
-d) Disease
-e) Cases
-f) Testing
-g) Risk factors
+1. Age
+2. Race
+3. State and County
+4. Disease
+5. Cases
+6. Testing
+7. Risk factors
 
 # OLAP Cubes
 Keeping reporting and analysis in mind the data can be franchised into different data marts. This is done for snappy reporting and ease of access to relevant data. For e.g. the team that looks after risk factor analysis does not require data related to preventive measures.
@@ -47,10 +47,10 @@ The other data mart will consist of data comparing the deaths and population dat
 Tableau is an interactive data visualization tool. It’s an application that is used for translating raw data into valuable insights. A few advantages of using tableau over using any other visualization tool are : 
 
 Remarkable Visualization Capabilities
-Multiple Data Source Connections	
-Ease of Use	
-High Performance
-Mobile Friendliness
+1. Multiple Data Source Connections	
+2. Ease of Use	
+3. High Performance
+4. Mobile Friendliness
 
 
 
